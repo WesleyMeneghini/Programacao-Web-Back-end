@@ -2,9 +2,11 @@
 <footer>
     <div class="conteudo center">
         <div id="container_sistema_interno">
-            <div id="sistema_interno" class="bkg-primary">
-                Sistema Interno
-            </div>
+            <a href="cms/index.php">
+                <div id="sistema_interno" class="bkg-primary">
+                    Sistema Interno
+                </div>
+            </a>
         </div>
         <div id="container_endereco">
             <div class="endereco center">

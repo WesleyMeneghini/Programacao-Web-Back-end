@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+input, textarea{
+    border: solid 1px #cacaca;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -103,10 +107,6 @@ figure{
     height: 70px;
     width: 150px;
 }
-
-
-
-
 
 
 
@@ -325,7 +325,7 @@ figure{
     width: 100%;
     min-height: 900px;
     height: auto;
-    background-color: #cacaca;
+    background-color: white;
     padding-top: 80px;
     padding-bottom: 50px;
 }
@@ -698,7 +698,7 @@ figure{
 .opacity{
     width: inherit;
     height: inherit;
-    background-color: rgba(90, 90, 108, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .center-txt{
     text-align: center;
@@ -888,7 +888,8 @@ figure{
 footer{
     width: 100%;
     height: 80px;
-    background-color: #a2a2a2;
+/*    background-color: #a2a2a2;*/
+    background-color: white;
     border-top: solid 1px black;
     
 }

@@ -40,7 +40,7 @@ figure{
 
 
 
-#container_cms{
+.container_cms{
     width: 1200px;
     min-height: 750px;
     background-color: #a3ffbc;
@@ -119,23 +119,39 @@ li{
 #logout{
     padding-top: 70px;
 }
-#conteudo{
+#adm_conteudo{
     width: inherit;
     height: 500px;
     padding: 20px;
+    padding-top: 50px;
 }
 
 
 .paginas_editaveis{
-    width: 500px;
-    height: 120px;
-    background-color: aqua;
-    margin-bottom: 10px;
+    width: 180px;
+    min-height: 120px;
+    height: auto;
+/*    background-color: aqua;*/
+    margin-bottom: 20px;
     float: left;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
+.icone_imagem{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.nome_pagina{
+    width: inherit;
+    min-height: 30px;
+    height: auto;
+}
 
+.paginas_editaveis:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 
 
