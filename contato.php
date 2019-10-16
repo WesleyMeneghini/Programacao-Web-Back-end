@@ -112,11 +112,11 @@
 
                         <!-- Selecionar tipo da mensagem -->
                         <select class="select_form negrito" name="slt_opcao">
-                            <option value="sugestao/reclamacao" selected> 
-                                Sugestão/Reclamação
+                            <option value="sugestao" selected> 
+                                Sugestão
                             </option>
-                            <option value="pedidos/produtos">
-                                Pedidos/Produtos
+                            <option value="critica">
+                               Crítica
                             </option>
                         </select><span class="obrigatorio"> *</span>
 

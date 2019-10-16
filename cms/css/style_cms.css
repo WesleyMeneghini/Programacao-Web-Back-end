@@ -1,9 +1,10 @@
 *{
     padding: 0px;
-    border: 0px;
     margin: 0px;
-    box-sizing: border-box;
+    border: 0px;
     list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -11,6 +12,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .negrito{
@@ -43,7 +49,8 @@ figure{
 .container_cms{
     width: 1200px;
     min-height: 750px;
-    background-color: #a3ffbc;
+/*    background-color: #a3ffbc;*/
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 8vh;
@@ -156,9 +163,27 @@ li{
 
 
 
+/*--------------------------------------*/
+/*------- Pagina ADM fale conosco-------*/
 
 
+#adm_fale_conosco{
+    width: inherit;
+    height: 500px;
+    padding: 20px;
+    padding-top: 50px;
+}
 
+#tbl_fale_conosco{
+    width: 1000px;
+    min-height: 50px;
+    height: auto;
+    border: solid 1px red;
+}
+
+#tbl_fale_conosco tr{
+    height: 100px;
+}
 
 
 
